@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+*{
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+
+
+display
+display:block vs. inline 
+display:none;
+display:grid;
+columns.
+1fr 2fr
+add another column
+add a header
+what's the website about?
+Add some typography
+
+https://cssgridgarden.com/
+
+*/
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 200px;
+	font-weight: 400;
+	
+}
+
+h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 100px;
+	font-weight: 300;
+
+
+}
+
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+
+
+}
+
+b, strong {
+	color: red;
+}
+
+.grid-container {
+	display: grid; /* how different elements get controlled on the page */
+	grid-template-columns: 1fr;
+	/*max-width: 2000px;
+	max-height: 1500px;*/
+	width:100%;
+    height:100%;
+	margin: 0;
+
+}
+
+.main {
+	
+	background-color:white;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}
+
+.sidebar-container {
+	display: grid; /* how different elements get controlled on the page */
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+
+}
+
+.sidebar {
+	
+	background-color:white;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	padding: 10px;
+}
+
+.brush {
+	width: 33px;
+	height: 28px;
+	border-radius: 80% 50%;
+	border: 3px solid black;
+	background: white;
+	position: absolute;
+	margin-top:350px;
+	margin-left: 820px;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+	align-items: baseline;
+	box-shadow: inset -7px 0px 0px 1px rgba(0,0,0,.2);
+	transform: skew(-10deg, -10deg);
+	transform:  rotate(10deg);
+	z-index: 1;
+
+
+}
+
+.brush2 {
+	width: 200px;
+	height: 45px;
+	border-radius: 80% 50%;
+	border: 5px solid black;
+	background: white;
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 650px;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+	align-items: baseline;
+	box-shadow: inset -5px -10px 0px 1px rgba(0,0,0,.2);
+	transform: skew(-30deg, -20deg);
+	z-index: 0;
+
+
+}
+
+.tip {
+  width: 70px;
+  height: 75px;
+  border-radius: 0% 75% 75% 75%;
+  border: 3px solid black;
+  transform: rotate(-250deg);
+  margin-top: 310px;
+  margin-left: 900px;
+  background-color: #545454;
+  box-shadow: inset -10px 10px 0px 0px black;
+  z-index: 2;
+}
+
+
+.tipstroke {
+  width: 40px;
+  height: 75px;
+  border-radius: 0% 75% 75% 75%;
+  border: 3px solid black;
+  transform: rotate(70deg);
+  background-color: transparent;
+  margin-top: 310px;
+  margin-left: 900px;
+  position: absolute;
+  z-index: 3;
+}
+
+.tipstroke2 {
+  width: 20px;
+  height: 75px;
+  border-radius: 0% 75% 75% 75%;
+  border: 3px solid black;
+  transform: rotate(70deg);
+  background-color: transparent;
+  margin-top:310px;
+  margin-left: 900px;
+  position: absolute;
+  z-index: 3;
+}
+
+.tipstroke3 {
+  width: 5px;
+  height: 75px;
+  border-radius: 0% 75% 75% 75%;
+  border: 3px solid black;
+  transform: rotate(70deg);
+  background-color: transparent;
+  margin-top:310px;
+  margin-left: 900px;
+  position: absolute;
+  z-index: 3;
+}
+
+.paint {
+  width: 20px;
+  height: 70px;
+  border-radius: 30% 40% 60% 40%;
+  border: 3px solid black;
+  transform: rotate(110deg);
+  margin-top: 290px;
+  margin-left: 950px;
+  background-color: #2ECC71;
+  box-shadow: inset -3px 3px 0px 0px #186A3B;
+  position: absolute;
+  z-index: 4;
+}
+
+
