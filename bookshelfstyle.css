@@ -48,7 +48,12 @@ h3 {
 }
 
 b, strong {
-	color: red;
+	color: black;
+}
+
+b:hover, strong:hover{
+	color: #ea5753;
+
 }
 
 .grid-container {
@@ -65,10 +70,21 @@ b, strong {
 .main {
 	
 	background-color:white;
-	border-width: 5px;
-	border-style: solid;
+	/* border-width: 5px;
+	border-style: solid; */
+	background-image: linear-gradient(60deg, #f6cfbe, #b9dcf2, #ea5753);
+	background-size: 300%;
+	animation: main-animation 8s infinite alternate;
 }
 
+@keyframes main-animation {
+	0%{
+		background-position: left;
+	}
+	100%{
+		background-position: right;
+	}
+}
 .container {
 	display: flex;
 	justify-content: center;
@@ -77,23 +93,53 @@ b, strong {
 
 .sidebar-container {
 	display: grid; /* how different elements get controlled on the page */
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	width: 100%;
 	height: 100%;
 	margin: auto;
+	justify-content: center;
 
 }
 
-.sidebar {
+.sidebar1 {
 	
 	background-color:white;
-	border-width: 5px;
+	/* border-width: 5px;
 	border-style: solid;
-	border-color: black;
-	padding: 10px;
+	border-color: black; */
+	padding: 150px;
+	text-align: justify;
+	background-image: radial-gradient(#b9dcf2 0%, white 50%);
+
 }
 
-.brush {
+.sidebar1:hover{
+	background-image: radial-gradient(white 0%, #b9dcf2 80%);
+}
+
+.sidebar2 {
+	
+	background-color:white;
+	/* border-width: 5px;
+	border-style: solid;
+	border-color: black; */
+	padding: 150px;
+	text-align: justify;
+	background-image: radial-gradient(#ea5753,white);
+	background-size: 700%;
+	animation: red-animation 6s infinite alternate;
+
+}
+
+@keyframes red-animation {
+	0%{
+		background-position: left;
+	}
+	100%{
+		background-position: right;
+}
+
+/* .brush {
 	width: 33px;
 	height: 28px;
 	border-radius: 80% 50%;
@@ -200,5 +246,7 @@ b, strong {
   position: absolute;
   z-index: 4;
 }
+*/
+
 
 
