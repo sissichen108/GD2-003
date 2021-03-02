@@ -97,3 +97,63 @@ function ChangeColour9() {
 	}
 	return false;
 };
+
+function ChangeColour10() {
+	let elem = document.getElementById("ChangeColour10");
+	if (elem.style.backgroundColor === "rgb(255, 87, 51)") {
+		elem.style.backgroundColor = 'rgb(255,255,255)';
+	} else {
+		elem.style.backgroundColor = "#FF5733"
+	}
+	return false;
+};
+
+function ChangeColour11() {
+	let elem = document.getElementById("ChangeColour11");
+	if (elem.style.backgroundColor === "rgb(255, 87, 51)") {
+		elem.style.backgroundColor = 'rgb(255,255,255)';
+	} else {
+		elem.style.backgroundColor = "#FF5733"
+	}
+	return false;
+};
+
+function ChangeColour12() {
+	let elem = document.getElementById("ChangeColour12");
+	if (elem.style.backgroundColor === "rgb(255, 87, 51)") {
+		elem.style.backgroundColor = 'rgb(255,255,255)';
+	} else {
+		elem.style.backgroundColor = "#FF5733"
+	}
+	return false;
+};
+
+function ChangeColour13() {
+	let elem = document.getElementById("ChangeColour13");
+	if (elem.style.backgroundColor === "rgb(255, 87, 51)") {
+		elem.style.backgroundColor = 'rgb(255,255,255)';
+	} else {
+		elem.style.backgroundColor = "#FF5733"
+	}
+	return false;
+};
+
+function ChangeColour14() {
+	let elem = document.getElementById("ChangeColour14");
+	if (elem.style.backgroundColor === "rgb(255, 87, 51)") {
+		elem.style.backgroundColor = 'rgb(255,255,255)';
+	} else {
+		elem.style.backgroundColor = "#FF5733"
+	}
+	return false;
+};
+
+function ChangeColour15() {
+	let elem = document.getElementById("ChangeColour15");
+	if (elem.style.backgroundColor === "rgb(255, 87, 51)") {
+		elem.style.backgroundColor = 'rgb(255,255,255)';
+	} else {
+		elem.style.backgroundColor = "#FF5733"
+	}
+	return false;
+};

@@ -1,0 +1,110 @@
+
+/*
+
+
+body
+p
+h2
+h3
+img
+a
+
+
+font size: px, %, vw, vh, em, rem, in, cm
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+a,
+a:visited {
+	color:pink;
+	font-family: "Times New Roman";
+	font-size:1.2em;
+}
+
+a:hover {
+	color:yellow;
+}
+body {
+	background:white;
+	color: black;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+p{
+	color:black;
+}
+
+b {
+	color:#FF5733;
+}
+
+
+
+div {
+	width: 50px;
+	height: 50px;
+	background: white;
+}
+
+#ChangeColour:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour1:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour2:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour3:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour4:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour5:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour6:hover {
+	background-color: #FF5733;
+}
+#ChangeColour7:hover {
+	background-color: #FF5733;
+}
+#ChangeColour8:hover {
+	background-color: #FF5733;
+}
+#ChangeColour9:hover {
+	background-color: #FF5733;
+}
+#ChangeColour10:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour11:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour12:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour13:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour14:hover {
+	background-color: #FF5733;
+}
+
+#ChangeColour15:hover {
+	background-color: #FF5733;
+}

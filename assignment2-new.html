@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Paint by Numbers</title>
-   <link rel="stylesheet" href="assignment2-stylesheet.css">
+   <link rel="stylesheet" href="assignment2-stylesheet-new.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
@@ -22,7 +22,6 @@
     #grid {
       display:grid;
       grid-template-columns: repeat(20, 1fr);
-      grid-template-rows: repeat(20, 1fr);
       position:fixed;
       max-width: 2000px;
       max-height: 1000px;
@@ -32,16 +31,17 @@
     #grid div {
       border:1px solid blue;
       width:5vw;
-      height:5vw;
+      height:10vh;
       
     }
+
     
   </style>
 </head>
 <body>
 
   <div id="grid">
-    <div>Paint by Number</div>
+    <div><b>Paint by Numbers</b></div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
@@ -69,7 +69,7 @@
     <div>25</div>
     <div>26</div>
     <div>27</div>
-    <div>28</div>
+    <div id="ChangeColour" onclick="ChangeColour()"><b>28</b></div>
     <div>29</div>
     <div>30</div>
     <div>31</div>
@@ -90,12 +90,12 @@
     <div>45</div>
     <div>46</div>
     <div>47</div>
-    <div>48</div>
+    <div id="ChangeColour1" onclick="ChangeColour1()"><b>48</b></div>
     <div>49</div>
     <div>50</div>
     <div>51</div>
-    <div>52</div>
-    <div>53</div>
+    <div id="ChangeColour2" onclick="ChangeColour2()"><b>52</b></div>
+    <div id="ChangeColour3" onclick="ChangeColour3()"><b>53</b></div>
     <div>54</div>
     <div>55</div>
     <div>56</div>
@@ -125,131 +125,131 @@
     <div>79</div>
     <div>80</div>
 
-    <div>41</div>
-    <div>42</div>
-    <div>43</div>
-    <div>44</div>
-    <div>45</div>
-    <div>46</div>
-    <div>47</div>
-    <div>48</div>
-    <div>49</div>
-    <div>50</div>
-    <div>51</div>
-    <div>52</div>
-    <div>53</div>
-    <div>54</div>
-    <div>55</div>
-    <div>56</div>
-    <div>57</div>
-    <div>58</div>
-    <div>59</div>
-    <div>60</div>
+    <div>81</div>
+    <div>82</div>
+    <div>83</div>
+    <div>84</div>
+    <div>85</div>
+    <div>86</div>
+    <div>87</div>
+    <div>88</div>
+    <div>89</div>
+    <div id="ChangeColour4" onclick="ChangeColour4()"><b>90</b></div>
+    <div>91</div>
+    <div>92</div>
+    <div>93</div>
+    <div>94</div>
+    <div>95</div>
+    <div>96</div>
+    <div>97</div>
+    <div>98</div>
+    <div>99</div>
+    <div>100</div>
 
-    <div>41</div>
-    <div>42</div>
-    <div>43</div>
-    <div>44</div>
-    <div>45</div>
-    <div>46</div>
-    <div>47</div>
-    <div>48</div>
-    <div>49</div>
-    <div>50</div>
-    <div>51</div>
-    <div>52</div>
-    <div>53</div>
-    <div>54</div>
-    <div>55</div>
-    <div>56</div>
-    <div>57</div>
-    <div>58</div>
-    <div>59</div>
-    <div>60</div>
+    <div>101</div>
+    <div>102</div>
+    <div>103</div>
+    <div>104</div>
+    <div>105</div>
+    <div>106</div>
+    <div>107</div>
+    <div>108</div>
+    <div>109</div>
+    <div id="ChangeColour5" onclick="ChangeColour5()"><b>110</b></div>
+    <div>111</div>
+    <div>112</div>
+    <div>113</div>
+    <div>114</div>
+    <div>115</div>
+    <div>116</div>
+    <div>117</div>
+    <div>118</div>
+    <div>119</div>
+    <div>120</div>
 
-    <div>41</div>
-    <div>42</div>
-    <div>43</div>
-    <div>44</div>
-    <div>45</div>
-    <div>46</div>
-    <div>47</div>
-    <div>48</div>
-    <div>49</div>
-    <div>50</div>
-    <div>51</div>
-    <div>52</div>
-    <div>53</div>
-    <div>54</div>
-    <div>55</div>
-    <div>56</div>
-    <div>57</div>
-    <div>58</div>
-    <div>59</div>
-    <div>60</div>
+    <div>121</div>
+    <div>122</div>
+    <div>123</div>
+    <div>124</div>
+    <div>125</div>
+    <div id="ChangeColour6" onclick="ChangeColour6()"><b>126</b></div>
+    <div>127</div>
+    <div>128</div>
+    <div>129</div>
+    <div id="ChangeColour7" onclick="ChangeColour7()"><b>130</b></div>
+    <div>131</div>
+    <div>132</div>
+    <div>133</div>
+    <div id="ChangeColour8" onclick="ChangeColour8()"><b>134</b></div>
+    <div>135</div>
+    <div>136</div>
+    <div>137</div>
+    <div>138</div>
+    <div>139</div>
+    <div>140</div>
 
-    <div>41</div>
-    <div>42</div>
-    <div>43</div>
-    <div>44</div>
-    <div>45</div>
-    <div>46</div>
-    <div>47</div>
-    <div>48</div>
-    <div>49</div>
-    <div>50</div>
-    <div>51</div>
-    <div>52</div>
-    <div>53</div>
-    <div>54</div>
-    <div>55</div>
-    <div>56</div>
-    <div>57</div>
-    <div>58</div>
-    <div>59</div>
-    <div>60</div>
+    <div>141</div>
+    <div>142</div>
+    <div>143</div>
+    <div>144</div>
+    <div>145</div>
+    <div>146</div>
+    <div id="ChangeColour9" onclick="ChangeColour9()"><b>147</b></div>
+    <div>148</div>
+    <div>149</div>
+    <div>150</div>
+    <div>151</div>
+    <div>152</div>
+    <div id="ChangeColour10" onclick="ChangeColour10()"><b>153</b></div>
+    <div>154</div>
+    <div>155</div>
+    <div>156</div>
+    <div>157</div>
+    <div>158</div>
+    <div>159</div>
+    <div>160</div>
 
-    <div>41</div>
-    <div>42</div>
-    <div>43</div>
-    <div>44</div>
-    <div>45</div>
-    <div>46</div>
-    <div>47</div>
-    <div>48</div>
-    <div>49</div>
-    <div>50</div>
-    <div>51</div>
-    <div>52</div>
-    <div>53</div>
-    <div>54</div>
-    <div>55</div>
-    <div>56</div>
-    <div>57</div>
-    <div>58</div>
-    <div>59</div>
-    <div>60</div>
+    <div>161</div>
+    <div>162</div>
+    <div>163</div>
+    <div>164</div>
+    <div>165</div>
+    <div>166</div>
+    <div>167</div>
+    <div id="ChangeColour11" onclick="ChangeColour11()"><b>168</b></div>
+    <div id="ChangeColour12" onclick="ChangeColour12()"><b>169</b></div>
+    <div id="ChangeColour13" onclick="ChangeColour13()"><b>170</b></div>
+    <div id="ChangeColour14" onclick="ChangeColour14()"><b>171</b></div>
+    <div id="ChangeColour15" onclick="ChangeColour15()"><b>172</b></div>
+    <div>173</div>
+    <div>174</div>
+    <div>175</div>
+    <div>176</div>
+    <div>177</div>
+    <div>178</div>
+    <div>179</div>
+    <div>180</div>
 
-    <div>41</div>
-    <div>42</div>
-    <div>43</div>
-    <div>44</div>
-    <div>45</div>
-    <div>46</div>
-    <div>47</div>
-    <div>48</div>
-    <div>49</div>
-    <div>50</div>
-    <div>51</div>
-    <div>52</div>
-    <div>53</div>
-    <div>54</div>
-    <div>55</div>
-    <div>56</div>
-    <div>57</div>
-    <div>58</div>
-    <div>59</div>
-    <div>60</div>
+    <div>181</div>
+    <div>182</div>
+    <div>183</div>
+    <div>184</div>
+    <div>185</div>
+    <div>186</div>
+    <div>187</div>
+    <div>188</div>
+    <div>189</div>
+    <div>190</div>
+    <div>191</div>
+    <div>192</div>
+    <div>193</div>
+    <div>194</div>
+    <div>195</div>
+    <div>196</div>
+    <div>197</div>
+    <div>198</div>
+    <div>199</div>
+    <div>200</div>
     
 
 
