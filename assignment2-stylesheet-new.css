@@ -29,16 +29,19 @@ body {
 	background:white;
 	color: black;
 	font-family: 'Work Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 0.9rem;
 	font-weight: 300;
 }
 
+
 p{
 	color:black;
+	padding: 5px;
 }
 
 b {
 	color:#FF5733;
+	
 }
 
 
