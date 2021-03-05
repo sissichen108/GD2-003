@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+a:link {
+  color: #DEB887;
+}
+
+a:visited {
+  color: #8181F7;
+}
+
+
+
+div {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
 body{
 	background: #FFC300;
 	height: 100vh;
