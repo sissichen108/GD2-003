@@ -1,30 +1,9 @@
-
-/*
-
-
-body
-p
-h2
-h3
-img
-a
-
-
-font size: px, %, vw, vh, em, rem, in, cm
-*/
-
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
-a,
+
 a:visited {
-	color:pink;
-	font-family: "Times New Roman";
-	font-size:1.2em;
+	color: #8181F7;
 }
 
-a:hover {
-	color:yellow;
-}
 body {
 	background:white;
 	color: black;
@@ -42,6 +21,10 @@ p{
 b {
 	color:#FF5733;
 	
+}
+
+a:link {
+	color: #DEB887;
 }
 
 
