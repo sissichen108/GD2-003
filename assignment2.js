@@ -1947,12 +1947,3 @@ function ChangeColour197() {
 	return false;
 };
 
-function ChangeColour198() {
-	let elem = document.getElementById("ChangeColour198");
-	if (elem.style.backgroundColor === "rgb(75, 183, 85)") {
-		elem.style.backgroundColor = 'rgb(255,255,255)';
-	} else {
-		elem.style.backgroundColor = "#4bb755"
-	}
-	return false;
-};
